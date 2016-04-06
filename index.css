@@ -1,0 +1,150 @@
+.navbar a {
+  font-family: Montserrat;
+  margin: 0 30px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+#home {
+  background-image: url('https://farm2.staticflickr.com/1510/25694702762_d033388166_k.jpg');
+  background-attachment: fixed;
+  padding: 150px 0 250px; 
+}
+
+#home-bg {
+  background: rgba(360, 360, 360, 0.5);
+  border-radius: 10px;
+  margin: 0 10%; 
+  padding: 80px 0;
+}
+
+#home-divider {
+  height: 2px;
+  width: 80%;
+  background: #000;
+  opacity: 0.5;
+  margin: 25px auto;
+}
+
+#home-contact {
+  margin: 0 20% 50px;
+}
+
+.btn-block {
+  background-color: #e7e7e7; 
+  color: black;
+}
+
+.btn-block:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#about {
+  background-image: url('https://farm1.staticflickr.com/435/19656047124_80b51900b0_k.jpg');
+  background-attachment: fixed;
+  background-position: 50% 40%;
+  height: 800px;
+}
+
+#about-summary {
+  padding: 75px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 100px 50px;
+  color: #e7e7e7;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 350px;
+  margin: 150px 150px;
+  border-width: 8px;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-style: solid;
+}
+
+#portfolio {
+  background-image: url('https://farm2.staticflickr.com/1602/25789541226_ab55e39039_k.jpg');
+  background-attachment: fixed;
+  background-position: 50% 40%;
+  height: 800px;
+  padding: 100px;
+}
+
+#portfolio-bg {
+  background: rgba(360, 360, 360, 0.3);
+  border-radius: 10px;
+  padding: 50px;
+}
+
+#portfolio-projects {
+}
+
+.col-xs-3 {
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  height: 200px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#contact {
+  background-image: url('https://farm1.staticflickr.com/389/18448450496_d18e0e719d_k.jpg');
+  background-attachment: fixed;
+  background-position: 10% 20%;
+  height: 800px;
+  padding: 100px;
+}
+
+.col-sm-4 {
+  margin: 20px 0;
+}
+
+.btn-default {
+  margin: 10px;
+  background-color: #e7e7e7; 
+  color: black;
+}
+
+.btn-default:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#footer {
+  background-color: #222222;
+  height: 150px;
+  color: #e7e7e7;
+}
+
+#footer-links p {
+  word-spacing: 15px;
+}
+
+#footer-links {
+  padding: 50px 100px 0;
+}
+

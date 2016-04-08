@@ -119,13 +119,13 @@
   margin: 20px 0;
 }
 
-.btn-lg {
+#contact-btns {
   margin: 20px;
   background-color: #e7e7e7; 
   color: black;
 }
 
-.btn-lg:hover {
+#contact-btns:hover {
   background-color: #555555;
   color: white;
 }

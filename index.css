@@ -13,10 +13,6 @@
   text-align: center;
 }
 
-body {
-  font-family: Montserrat;
-}
-
 #home {
   background-image: url('https://farm2.staticflickr.com/1510/25694702762_d033388166_k.jpg');
   background-attachment: fixed;
@@ -123,13 +119,13 @@ body {
   margin: 20px 0;
 }
 
-.btn-default {
-  margin: 10px;
+.btn-lg {
+  margin: 20px;
   background-color: #e7e7e7; 
   color: black;
 }
 
-.btn-default:hover {
+.btn-lg:hover {
   background-color: #555555;
   color: white;
 }

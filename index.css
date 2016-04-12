@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.nav img {
+  height: 25px;
+}
+
 #home {
   background-image: url('https://farm2.staticflickr.com/1510/25694702762_d033388166_k.jpg');
   background-attachment: fixed;
@@ -86,7 +90,18 @@
   padding: 50px;
 }
 
-#portfolio-projects {
+.grid_element {
+  display: inline-block;
+  width: 200px;
+  height:200px;
+}
+
+.grid_element img {
+  border-radius: 50%;
+  border-width: 6px;
+  border-color: rgba(0, 0, 0, 0.4);
+  border-style: solid;
+  margin: 10px 0;
 }
 
 .col-xs-3 {
